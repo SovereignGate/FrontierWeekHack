@@ -71,7 +71,7 @@ az login
 From the **callcenter** folder, run the deploy script:
 
 ```bash
-bash challenge-0-setup/deploy.sh
+bash '/callcenter/challenge-0-setup/deploy.sh'
 ```
 
 This will provision all resources **and** automatically write your `.env` file to the repository root as `.env`. The deployment will take a couple of minutes to complete.
